@@ -13,9 +13,11 @@ Try this image:
 docker pull observabilitystack/graylog:3.1.2
 ```
 
-## Monitoring Graylog with Prometheus
+## Kubernetes: Monitoring Graylog with Prometheus
 
-To start monitoring your Graylog instance with Prometheus, add the following annotations to your deployment. When using Graylog in production, keep an eye on the internal graylog queues and threading.
+To start monitoring your Graylog instance with Prometheus, add the following annotations to your
+[Kubernetes](https://kubernetes.io/) deployment. When using Graylog in production, I recommend
+keeping an eye on the internal graylog queues and threading.
 
 ```yaml
 apiVersion: apps/v1
