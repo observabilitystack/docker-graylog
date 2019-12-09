@@ -1,6 +1,6 @@
 NAME=observabilitystack/graylog
-VERSION=3.1.2-0
-GRAYLOG_VERSION=3.1.2
+VERSION=3.1.3
+GRAYLOG_VERSION=3.1.3-2
 
 .PHONY: all build release
 
