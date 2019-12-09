@@ -8,4 +8,5 @@ build:
 	docker build --build-arg GRAYLOG_VERSION=$(GRAYLOG_VERSION) --tag $(NAME):$(VERSION) --tag $(NAME):$(GRAYLOG_VERSION) .
 
 release:
-	docker push $(NAME):$(GRAYLOG_VERSION) $(NAME):$(VERSION)
+	docker push $(NAME):$(GRAYLOG_VERSION)
+	docker push $(NAME):$(VERSION)
