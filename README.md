@@ -10,7 +10,7 @@ preinstalled. Use this image as drop-in replacement for the original image.
 Try this image:
 
 ```
-docker pull observabilitystack/graylog:3.1.3
+docker pull observabilitystack/graylog:3.3.2
 ```
 
 ## Kubernetes: Monitoring Graylog with Prometheus
